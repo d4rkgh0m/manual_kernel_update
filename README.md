@@ -3,11 +3,16 @@
    ================================
    
    СОЗДАЕМ VAGRANTFILE СОГЛАСНО МАНУАЛУ
+   
    $ vagrant up
    $ vagrant ssh
+   
    проверяем текущую версию ядра
+   
    $ uname -r
+   
    подключаем репозиторий с необходимой версией ядра
+   
    $ sudo yum install -y https://www.elrepo.org/elrepo-release-8.el8.elrepo.noarch.rpm
    устанавливаем последнюю версию ядра
    $ sudo yum --enablerepo elrepo-kernel install kernel-ml -y
