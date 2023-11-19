@@ -5,6 +5,7 @@
    СОЗДАЕМ VAGRANTFILE СОГЛАСНО МАНУАЛУ
    
    $ vagrant up
+   
    $ vagrant ssh
    
    проверяем текущую версию ядра
